@@ -10,4 +10,4 @@
 - 
 
 ### A meme that captures how I currently feel about my university studies is:
-![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjExd2tyYWZqeXZzcWVtaGxlZnlzb2ZmaXExODRxNDNxbjE3ZHBqcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SiUV5nib8Rm4U/giphy.gif)
+![](https://media1.tenor.com/m/tkaE7rWB-isAAAAd/leaves-thanks.gif)
