@@ -7,6 +7,10 @@
 - *I am taking STATS 220 because I find working with data interesting*
 - **I am interested in learning about how data science works**
 
+### Useful Links:
+- [University of Auckland](https://learningessentials.auckland.ac.nz/)
+- [Posit Cloud for RStudio](https://posit.cloud/)
+
 ### Task List:
 1. Install R and RStudio
 2. Complete Parts A & B
