@@ -9,4 +9,4 @@
 
 - 
 
-### A meme that captures how I currently feel about my university studies is ![]([https://64.media.tumblr.com/8e1f162588f53f0d2c0d5b94eac3db37/tumblr_o5hfv8Vu9T1vo2mjco2_540.gifv)
+### A meme that captures how I currently feel about my university studies is ![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjExd2tyYWZqeXZzcWVtaGxlZnlzb2ZmaXExODRxNDNxbjE3ZHBqcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SiUV5nib8Rm4U/giphy.gif)
