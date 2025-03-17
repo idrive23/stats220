@@ -10,7 +10,7 @@
 ### Task List:
 1. Install R and RStudio
 2. Complete Parts A & B
-3. Finish the rest of the project
+3. Finish the rest of the project 
 
 ### A meme that captures how I currently feel about my university studies is:
 ![](https://media1.tenor.com/m/tkaE7rWB-isAAAAd/leaves-thanks.gif)
