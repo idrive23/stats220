@@ -1,0 +1,54 @@
+---
+title: My dynamic report
+output: html_fragment
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
+
+```
+
+```{css}
+
+```
+
+## Patterns in YouTube Ads: Product Type and Tone
+
+This report presents a summary of observational data collected on YouTube advertisements. 
+Each observation recorded the number of ads seen before a video, the type of product or service being advertised, and the tone or style of the ad. The data was collected over multiple YouTube viewing sessions to identify trends and patterns in advertising content.
+
+
+```{r message=FALSE, warning=FALSE, echo=FALSE}
+library(tidyverse)
+
+csv_url <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vSZdoMGWflxnHgSEfg4PM1463zWRzfRAPqYtYPmFaNggGQKCO6GQO-01fQC7Y9kcMjkJ9qNtuEF6GZm/pub?output=csv"
+logged_data <- read_csv(csv_url)
+
+latest_data <- logged_data %>%
+  rename(
+    ads_seen = `How many ads did you see before the video started?\nWould Aaron Rodgers make the Steelers DANGEROUS?`,
+    product_type = `What type of product or service was advertised?\nIf more than one ad played, choose the one that stood out most`,
+    ad_tone = `What was the tone of the ad?`
+  )
+
+# Summary values
+mean_ads <- mean(latest_data$ads_seen, na.rm = TRUE)
+max_ads <- max(latest_data$ads_seen, na.rm = TRUE) 
+
+ggplot(latest_data, aes(x = product_type)) +
+  geom_bar(fill = "skyblue") +
+  labs(title = "Product Type of YouTube Ads",
+       x = "Product Type",
+       y = "Count") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+ggplot(latest_data, aes(x = ad_tone)) +
+  geom_bar(fill = "tomato") +
+  labs(title = "Tone of YouTube Ads",
+       x = "Ad Tone",
+       y = "Count") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+ 
